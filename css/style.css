@@ -4,109 +4,213 @@ body{
     width: 80%;
     height: 100%;
     font-family: 'Syne', sans-serif;
-    
 }
+
+/* Estilos del Header 
+###############################################
+###############################################*/
 
 header{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     background-image: url(../img/Banner.png);
-    background-size: auto;
-    height: 150px;
-    width: 100%;
-}
-h1 {
-    text-align: center;
-    color:aliceblue;
-    padding-top: 5%;
-}
-header p{
-    font-family: 'Lato', sans-serif;
-    color:aliceblue;
-}
-header div {
-    margin-top: 8%;
-    margin-left: 2%;
+    background-size: cover;
+    height: 300px;
     
 }
 
-.perfil{
-    float: left;
-    margin-left: 2%;
-    margin-top: 2%;
-    width: 15%;
-    border-radius: 200%;
+.perfil {
+    position:absolute;
+    left: 20px;
+    top: 40px;
+    width: 250px;
+    border-radius: 200px;
+    border: white solid 2px;    
 }
-.der{
-    float: right;
-    width: 15%;
+
+.der {
+    position: absolute;
+    right: 0px;
+    width: 250px;
 }
+
+header p{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    color:white;
+}
+
+h1 {
+    position: absolute;
+    left: 35%;
+    top: 80px;
+    color: white;
+}
+
+.vibras{
+    position:absolute;
+    top:255px;
+    left: 0px;
+    width: 180px;
+    z-index: 3;
+}
+
+/* Estilos del MAIN
+###############################################
+############################################### */
 
 main{
-    background-color: #1D1D1D;
-    margin-top: -1%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1d1d1d;
+    margin-top: 10px;
+    height: 1440px;
 }
 
-.exp h2 {
+/* Estilo link sobre mi 
+-----------------------*/
+.circulo {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    width: 100px;
+}
+.sobremi{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    text-decoration: none;
     color:aliceblue;
-    padding-top: 10%;
-    padding-left: 10%;    
+    z-index: 3;
+    font-size: 30px;
+
+    
 }
-.exp img {
-    float: left;
-    margin-left: 12%;
-    margin-top: -2%;
+
+
+/* Estilos Main Izquierdo 
+------------------------*/ 
+.experiencia h2 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    color:aliceblue;
+    font-size: 30px;
+    
 }
-h4, li {
+
+.subrayado {
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    width: 200px;
+}
+.experiencia article{
+    position: absolute;
     font-family: 'Lato', sans-serif;
-    font-size: 10px;
-    font-weight: 300;
-    line-height: 15px;    
-}
-h3 {
-    margin-top: -1%;
-    font-weight: 300;
-}
-.exp article{
     color:aliceblue;
-    margin-top:5%;
-    margin-left: 5%;
+    font-size: 15px;
+    left: 50px;
+}
+.art1 {
+    top: 100px;
+}
+.art2 {
+    top: 300px;
+}
+.art3 {
+    top: 470px;
+}
+
+h4 {
+    position:relative;
+    top: 20px;
+    font-weight: 300;
+}
+
+
+/* Estilos Main Derecho 
+-----------------------*/
+.personal img:first-child{
+    position:absolute;
+    right: 100px;
+    top: 150px;
+    width: 500px;
+    height: 400px;
+}
+
+.detalle{
+    position: absolute;
+    right: 90px;
+    top: 450px;
+    width: 150px;
+}
+
+.personal h2{
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    color:aliceblue;
+    font-size: 30px;
+}
+
+.subrayado2 {
+    position:absolute;
+    right: 200px;
+    top: 105px;
+    width: 200px;    
+}
+.personal ul{
+    position: absolute;
+    right: 100px;
+    top: 220px;
+}
+.personal li{
+    font-size: 20px;
+    line-height: 45px;
+    list-style: none;
+}
+.negrita {
+    font-weight: 700;
+}
+.salto {
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+/*
+
+
+.experiencia article {
+    position: absolute;
+    line-height: 10px; 
+}
+
+.expericia 
+
+.experiencia .art2{
+    top: 3000px;
+    left:150px;
 }
 
 .personal {
     position: relative;
-    float: right;
-    margin-top: -45%;
-    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.personal article {
-    margin-top: -70%;
-}
-.personal h2 {
-    
-    float: right;
-    margin-top: -102%;
-    margin-right: 25%;
-    color:aliceblue;
-}
-
-.detalle {
-    position: relative;
-    float: right;
-    margin-top: -20%;
-    margin-right: 20%;
-}
-.personal ul{
-    margin-top:15%;
-}
-.fondo1 {
-    margin-top:15%;
+.personal article{
+    position: absolute;
+    display: block;
+    left: 500px;
+    top: 200px;
+    color:white;
 }
 
 
-
-
-
-footer{
-    background-color:rgb(142, 41, 41);
-    
 }
+
