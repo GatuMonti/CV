@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Syne:wght@400;700&display=swap');
 body{
-    margin:auto;
-    width: 80%;
+    margin: auto;
+    width: 1080px;
     height: 100%;
     font-family: 'Syne', sans-serif;
 }
@@ -14,7 +14,7 @@ header{
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(../img/Banner.png);
+    background-image: url(../img/Banner.svg);
     background-size: cover;
     height: 300px;
     
@@ -25,7 +25,7 @@ header{
     left: 20px;
     top: 40px;
     width: 250px;
-    border-radius: 200px;
+    border-radius: 50%;
     border: white solid 2px;    
 }
 
@@ -67,16 +67,16 @@ main{
     flex-wrap: wrap;
     background-color: #1d1d1d;
     margin-top: 10px;
-    height: 1440px;
+    height: 1920px;
 }
 
 /* Estilo link sobre mi 
 -----------------------*/
 .circulo {
     position: absolute;
-    top: 150px;
-    left: 450px;
-    width: 100px;
+    top: 140px;
+    left: 440px;
+    width: 140px;
 }
 .sobremi{
     position: absolute;
@@ -96,7 +96,7 @@ main{
 .experiencia h2 {
     position: absolute;
     top: 30px;
-    left: 100px;
+    left: 150px;
     color:aliceblue;
     font-size: 30px;
     
@@ -105,7 +105,7 @@ main{
 .subrayado {
     position: absolute;
     top: 90px;
-    left: 100px;
+    left: 150px;
     width: 200px;
 }
 .experiencia article{
@@ -113,7 +113,7 @@ main{
     font-family: 'Lato', sans-serif;
     color:aliceblue;
     font-size: 15px;
-    left: 50px;
+    left: 100px;
 }
 .art1 {
     top: 100px;
@@ -136,22 +136,22 @@ h4 {
 -----------------------*/
 .personal img:first-child{
     position:absolute;
-    right: 100px;
+    right: 50px;
     top: 150px;
     width: 500px;
-    height: 400px;
+    height: 350px;
 }
 
 .detalle{
     position: absolute;
-    right: 90px;
-    top: 450px;
+    right: 100px;
+    top: 400px;
     width: 150px;
 }
 
 .personal h2{
     position: absolute;
-    right: 150px;
+    right: 100px;
     top: 50px;
     color:aliceblue;
     font-size: 30px;
@@ -159,58 +159,89 @@ h4 {
 
 .subrayado2 {
     position:absolute;
-    right: 200px;
+    right: 150px;
     top: 105px;
     width: 200px;    
 }
 .personal ul{
     position: absolute;
-    right: 100px;
-    top: 220px;
+    right: 120px;
+    top: 170px;
 }
 .personal li{
-    font-size: 20px;
+    font-size: 15px;
     line-height: 45px;
     list-style: none;
 }
 .negrita {
     font-weight: 700;
 }
-.salto {
+.personal .salto {
     position: relative;
     top: 20px;
     right: 20px;
 }
+/*-----------------------
+-------------------------*/
 
-/*
-
-
-.experiencia article {
+.educacion h2 {
     position: absolute;
-    line-height: 10px; 
+    top: 570px;
+    right: 200px;
+    color:aliceblue;
+    font-size: 30px;
 }
 
-.expericia 
-
-.experiencia .art2{
-    top: 3000px;
-    left:150px;
+.edu {
+    position: absolute;
+    top: 580px;
+    right: 370px;
+    width: 50px;
 }
 
-.personal {
+.educacion ul{
+    position: absolute;
+    top: 680px;
+    right: 100px;
+    color:aliceblue;
+    list-style: none;
+}
+
+.educacion li:nth-child(2){
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
+    top: 20px;
+}
+.educacion li:last-child{
+    position: relative;
+    top: 40px;
 }
 
-.personal article{
+.educacion .salto, .educacion .salto2{
+    position:relative;
+    left: 95px;
+}
+
+/* Estilos Seccion Sftoware
+-------------------------*/
+
+.software {
     position: absolute;
-    display: block;
-    left: 500px;
-    top: 200px;
-    color:white;
+    bottom:700px;
+    right: 150px;
+    width: 300px;
+    height: 200px;
+    color:aliceblue;
+    text-align: center;
+    font-size: 20px;
 }
 
-
+.logo{
+    position: relative;
+    margin: 10px;
+    width: 50px;
 }
-
+.sof{
+    position: absolute;
+    bottom:130px;
+    right: 80px;
+}
