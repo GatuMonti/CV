@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Syne:wght@400;700&display=swap');
 body{
-    margin: auto;
-    width: 1080px;
-    
+    margin: 0 auto;
+    width: 1080px;    
     font-family: 'Syne', sans-serif;
+    
 }
 
 /* Estilos del Header 
@@ -63,10 +63,9 @@ h1 {
 
 main{
     position: relative;
-    display: flex;
     flex-wrap: wrap;
     background-color: #1d1d1d;
-    margin-top: 10px;
+    margin-top: -30px;
     height: 1750px;
 }
 
@@ -134,13 +133,13 @@ main{
 
 .fondo1{
     top: 150px;
-    width: 350px;
+    width: 400px;
 }
 
 .detalle{
-    top:400px;
-    left:200px;
-    width: 200px;
+    top:450px;
+    left:250px;
+    width: 150px;
 }
 
 .subrayado2 {
@@ -317,7 +316,7 @@ footer{
 .sociales {
     position: relative;
     width: 300px;
-    left: 30px;
+    left: 70px;
     font-size: 15px;
     color:aliceblue; 
     text-align: center;
@@ -330,7 +329,7 @@ footer{
 }
 .circulo {
     position: absolute;
-    top: 1670px;
+    top: -50px;
     left: -50px;
     width: 400px;
 }
@@ -352,4 +351,37 @@ footer{
     color:#1d1d1d;
     font-size: 20px;
     font-weight: bold;
+}
+
+
+/* -------------------------ESTILOS PAGINA 2 (SOBRE MI)---------------------- 
+##############################################################################
+##############################################################################
+##############################################################################
+##############################################################################*/
+
+.main2{
+    display: flex;
+    height: fit-content;
+    margin-top: 7px;
+}
+.sobremi2 {
+    color:aliceblue;
+    height: 500px;
+    text-align: justify;
+    margin: 100px 100px 300px;
+    font-size: 20px;
+    
+}
+
+.sobremi2 h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.sobremi2 img{
+    position:relative;
+    bottom: 30px;
+    left: 300px;
+    width: 300px;
 }
